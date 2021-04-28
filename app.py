@@ -71,10 +71,8 @@ currentPath = os.getcwd()
 datadump = "/dataDump"
 fileDir = r"{}{}".format(currentPath, datadump)
 
-remote_access = remote_connect()
-
 ####INFO STUFF
-dbType=[{'label': 'Local Database', 'value': 'local'}, {'label': 'Remote Database', 'value': 'remote'}, {'label': 'CSV Files', 'value': 'csv'}]
+dbType=[{'label': 'CSV Files', 'value': 'csv'}]
 timeOptions = dropdownOptionFormatter(['HOUR', 'DAY', 'WEEK', 'MONTH', 'YEAR', 'ALL', 'CUSTOM'])
 analysisSelectorOptions = [{'label': ' ALL HOURS', 'value': 'all'}, {'label': ' WORKING HOURS', 'value': 'working'}, {'label': ' NON-WORKING HOURS', 'value': 'nonworking'}]
 
