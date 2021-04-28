@@ -8,3 +8,4 @@ pandas==1.2.4
 psycopg2-binary==2.8.6
 mysql-connector==2.2.9
 scipy==1.6.2
+requests==2.25.1
