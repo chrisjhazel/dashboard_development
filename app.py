@@ -19,7 +19,6 @@ import dBStore_pg
 import dBStore_msql
 import dBStore_csv
 from keyStore import addKeys
-from remote_connect import remote_connect
 
 ###########################
 ## NOTES AND ADDED FUNCTONS
